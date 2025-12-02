@@ -120,7 +120,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
 # TEMP: hard-code key for local testing if env var not set
 # ❗ Put your real key here, but DO NOT commit to GitHub.
 if not GEMINI_API_KEY:
-    GEMINI_API_KEY = "AIzaSyB2j1Pc-cWj4JTqBJ3D-I0UkES984O-u_Y"  # <-- replace with real key
+    GEMINI_API_KEY = "PASTE_YOUR_GEMINI_KEY"  # <-- replace with real key
 
 # Classification minimum confidence for "high confidence"
 MIN_CONFIDENCE = 0.70  # 70%
